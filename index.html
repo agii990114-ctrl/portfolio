@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>수업 자료 인덱스</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="scrtip.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title-section">
+                <i class="fas fa-folder fa-2x" style="color: #3b82f6;"></i>
+                <h1>JiHwan's Portfolio</h1>
+            </div>
+            <p class="subtitle">모든 학습 과정과 포트폴리오 자료를 한 곳에서 확인하세요</p>
+            
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="자료 검색...">
+            </div>
+
+            <nav class="filter-tabs">
+                <button class="active">전체</button>
+                <button>UX/UI</button>
+                <button>AI Agent</button>
+                <button>Video</button>
+                <button>Study</button>
+            </nav>
+        </header>
+
+        <main class="grid-container" id="card-container">
+            <div class="card">
+            <div>
+                <div class="card-header">
+                    <span class="type-tag"><i class="fas ${item.icon}"></i> ${item.type}</span>
+                    <span class="date">${item.date}</span>
+                </div>
+                <div class="card-content">
+                    <h3>${item.title}</h3>
+                    <p>${item.desc}</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="${item.link}" class="link-btn">
+                    <i class="fas fa-link"></i> 자료 열기
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <div class="card-header">
+                    <span class="type-tag"><i class="fas ${item.icon}"></i> ${item.type}</span>
+                    <span class="date">${item.date}</span>
+                </div>
+                <div class="card-content">
+                    <h3>${item.title}</h3>
+                    <p>${item.desc}</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="${item.link}" class="link-btn">
+                    <i class="fas fa-link"></i> 자료 열기
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <div class="card-header">
+                    <span class="type-tag"><i class="fas ${item.icon}"></i> ${item.type}</span>
+                    <span class="date">${item.date}</span>
+                </div>
+                <div class="card-content">
+                    <h3>${item.title}</h3>
+                    <p>${item.desc}</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="${item.link}" class="link-btn">
+                    <i class="fas fa-link"></i> 자료 열기
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <div class="card-header">
+                    <span class="type-tag"><i class="fas ${item.icon}"></i> ${item.type}</span>
+                    <span class="date">${item.date}</span>
+                </div>
+                <div class="card-content">
+                    <h3>${item.title}</h3>
+                    <p>${item.desc}</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="${item.link}" class="link-btn">
+                    <i class="fas fa-link"></i> 자료 열기
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <div class="card-header">
+                    <span class="type-tag"><i class="fas ${item.icon}"></i> ${item.type}</span>
+                    <span class="date">${item.date}</span>
+                </div>
+                <div class="card-content">
+                    <h3>${item.title}</h3>
+                    <p>${item.desc}</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="${item.link}" class="link-btn">
+                    <i class="fas fa-link"></i> 자료 열기
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <div class="card-header">
+                    <span class="type-tag"><i class="fas ${item.icon}"></i> ${item.type}</span>
+                    <span class="date">${item.date}</span>
+                </div>
+                <div class="card-content">
+                    <h3>${item.title}</h3>
+                    <p>${item.desc}</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="${item.link}" class="link-btn">
+                    <i class="fas fa-link"></i> 자료 열기
+                </a>
+            </div>
+        </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
